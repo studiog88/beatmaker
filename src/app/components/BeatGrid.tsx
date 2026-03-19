@@ -32,7 +32,8 @@ export function BeatGrid({ tracks, steps, isPlaying, tempo, onCellToggle, patter
   return (
     <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0">
       {/* Column numbers */}
-      <div className="content-stretch flex gap-[18px] items-center py-[8px] relative shrink-0 pl-[140px]">
+      <div className="content-stretch flex gap-[18px] items-center py-[8px] relative shrink-0">
+        <div className="w-[140px]" />
         {Array.from({ length: steps }, (_, i) => (
           <div 
             key={i} 
@@ -50,7 +51,7 @@ export function BeatGrid({ tracks, steps, isPlaying, tempo, onCellToggle, patter
         <div key={trackIndex} className="content-stretch flex gap-[18px] items-center py-[8px] relative shrink-0">
           {/* Track label */}
           <div className="w-[140px]">
-            <p className="font-['Inter:Medium',sans-serif] font-medium leading-[normal] not-italic text-[#9f9fa9] text-[20px]">
+            <p className="font-['Inter:Medium',sans-serif] font-medium leading-[normal] not-italic text-[#9f9fa9] text-[20px] text-right">
               {track}
             </p>
           </div>
@@ -62,7 +63,7 @@ export function BeatGrid({ tracks, steps, isPlaying, tempo, onCellToggle, patter
               const isCurrentlyPlaying = isPlaying && currentStep === stepIndex;
               
               // Determine background color
-              let bgColor = stepIndex % 2 === 0 ? 'bg-[#3f3f47]' : 'bg-[#18181b]';
+              let bgColor = stepIndex % 4 === 0 ? 'bg-[#3f3f47]' : 'bg-[#18181b]';
               if (isActive) {
                 bgColor = 'bg-[#8200db]';
               }
