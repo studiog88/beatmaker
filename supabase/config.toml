@@ -1,0 +1,16 @@
+# Supabase project config. Run `supabase link --project-ref YOUR_REF` to set project_id.
+# See: https://supabase.com/docs/guides/cli/config
+
+project_id = "zzweoiypzzafftbmuwhk"
+
+[api]
+enabled = true
+port = 54321
+
+[db]
+port = 54322
+major_version = 17
+
+[studio]
+enabled = true
+port = 54323
