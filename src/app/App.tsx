@@ -61,9 +61,9 @@ function Navbar({ onSignUpClick, onLogInClick, user, onLogout, profilePhotoUrl, 
               <>
                 <button
                   onClick={onSignUpClick}
-                  className="bg-[#8200db] content-stretch flex gap-[4px] items-center justify-center p-[8px] relative rounded-[8px] shrink-0 cursor-pointer hover:opacity-90 transition-opacity"
+                  className="bg-[#2563eb] content-stretch flex gap-[4px] items-center justify-center p-[8px] relative rounded-[8px] shrink-0 cursor-pointer hover:opacity-90 transition-opacity"
                 >
-                  <div aria-hidden="true" className="absolute border border-[#ad46ff] border-solid inset-0 pointer-events-none rounded-[8px]" />
+                  <div aria-hidden="true" className="absolute border border-[#60a5fa] border-solid inset-0 pointer-events-none rounded-[8px]" />
                   <p className="font-['Geist:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#f8fafc] text-[16px]">Sign Up</p>
                 </button>
                 <button
@@ -75,7 +75,7 @@ function Navbar({ onSignUpClick, onLogInClick, user, onLogout, profilePhotoUrl, 
               </>
             )}
           </div>
-          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#8200db] content-stretch flex items-center justify-center left-1/2 px-[16px] py-[4px] top-[calc(50%+1px)]">
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#2563eb] content-stretch flex items-center justify-center left-1/2 px-[16px] py-[4px] top-[calc(50%+1px)]">
             <p className="font-['Inter:Black_Italic',sans-serif] font-black italic leading-[normal] relative shrink-0 text-[#f8fafc] text-[36px]">Super Beats</p>
           </div>
         </div>
@@ -370,9 +370,9 @@ export default function App() {
                 </div>
                 <button
                   onClick={() => setIsPlaying(!isPlaying)}
-                  className="bg-[#8200db] content-stretch flex gap-[4px] items-center justify-center p-[8px] relative rounded-[8px] shrink-0 cursor-pointer hover:opacity-90 transition-opacity"
+                  className="bg-[#2563eb] content-stretch flex gap-[4px] items-center justify-center p-[8px] relative rounded-[8px] shrink-0 cursor-pointer hover:opacity-90 transition-opacity"
                 >
-                  <div aria-hidden="true" className="absolute border border-[#ad46ff] border-solid inset-0 pointer-events-none rounded-[8px]" />
+                  <div aria-hidden="true" className="absolute border border-[#60a5fa] border-solid inset-0 pointer-events-none rounded-[8px]" />
                   <div className="overflow-clip relative shrink-0 size-[20px]">
                     <div className="absolute inset-[12.5%]">
                       <div className="absolute inset-[-5%]">

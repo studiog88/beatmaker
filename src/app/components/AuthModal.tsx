@@ -110,7 +110,7 @@ export function AuthModal({ isOpen, onClose, onAuthSuccess, initialMode = 'login
                 type="text"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                className="bg-[#27272a] border border-[#3f3f47] rounded-[4px] px-[16px] py-[8px] text-[#f1f5f9] font-['Inter:Medium',sans-serif] font-medium text-[16px] outline-none focus:border-[#8200db] transition-colors"
+                className="bg-[#27272a] border border-[#3f3f47] rounded-[4px] px-[16px] py-[8px] text-[#f1f5f9] font-['Inter:Medium',sans-serif] font-medium text-[16px] outline-none focus:border-[#2563eb] transition-colors"
                 placeholder="Your name"
               />
             </div>
@@ -125,7 +125,7 @@ export function AuthModal({ isOpen, onClose, onAuthSuccess, initialMode = 'login
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="bg-[#27272a] border border-[#3f3f47] rounded-[4px] px-[16px] py-[8px] text-[#f1f5f9] font-['Inter:Medium',sans-serif] font-medium text-[16px] outline-none focus:border-[#8200db] transition-colors"
+              className="bg-[#27272a] border border-[#3f3f47] rounded-[4px] px-[16px] py-[8px] text-[#f1f5f9] font-['Inter:Medium',sans-serif] font-medium text-[16px] outline-none focus:border-[#2563eb] transition-colors"
               placeholder="you@example.com"
             />
           </div>
@@ -140,7 +140,7 @@ export function AuthModal({ isOpen, onClose, onAuthSuccess, initialMode = 'login
               onChange={(e) => setPassword(e.target.value)}
               required
               minLength={6}
-              className="bg-[#27272a] border border-[#3f3f47] rounded-[4px] px-[16px] py-[8px] text-[#f1f5f9] font-['Inter:Medium',sans-serif] font-medium text-[16px] outline-none focus:border-[#8200db] transition-colors"
+              className="bg-[#27272a] border border-[#3f3f47] rounded-[4px] px-[16px] py-[8px] text-[#f1f5f9] font-['Inter:Medium',sans-serif] font-medium text-[16px] outline-none focus:border-[#2563eb] transition-colors"
               placeholder="••••••••"
             />
           </div>
@@ -154,7 +154,7 @@ export function AuthModal({ isOpen, onClose, onAuthSuccess, initialMode = 'login
           <button
             type="submit"
             disabled={loading}
-            className="bg-[#8200db] border border-[#ad46ff] rounded-[8px] px-[16px] py-[12px] text-[#f8fafc] font-['Geist:Medium',sans-serif] font-medium text-[16px] cursor-pointer hover:opacity-90 transition-opacity disabled:opacity-50 disabled:cursor-not-allowed"
+            className="bg-[#2563eb] border border-[#60a5fa] rounded-[8px] px-[16px] py-[12px] text-[#f8fafc] font-['Geist:Medium',sans-serif] font-medium text-[16px] cursor-pointer hover:opacity-90 transition-opacity disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {loading ? 'Loading...' : isSignUp ? 'Sign Up' : 'Log In'}
           </button>
@@ -165,7 +165,7 @@ export function AuthModal({ isOpen, onClose, onAuthSuccess, initialMode = 'login
               setIsSignUp(!isSignUp);
               setError('');
             }}
-            className="text-[#8200db] font-['Inter:Medium',sans-serif] font-medium text-[14px] hover:opacity-80 transition-opacity"
+            className="text-[#2563eb] font-['Inter:Medium',sans-serif] font-medium text-[14px] hover:opacity-80 transition-opacity"
           >
             {isSignUp ? 'Already have an account? Log in' : "Don't have an account? Sign up"}
           </button>

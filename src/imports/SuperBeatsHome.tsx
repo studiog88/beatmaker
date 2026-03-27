@@ -3,8 +3,8 @@ import svgPaths from "./svg-9daivwmx0y";
 function NavbarActions() {
   return (
     <div className="content-stretch flex gap-[8px] items-center justify-end relative shrink-0" data-name="Navbar Actions">
-      <div className="bg-[#8200db] content-stretch flex gap-[4px] items-center justify-center p-[8px] relative rounded-[8px] shrink-0" data-name="Button">
-        <div aria-hidden="true" className="absolute border border-[#ad46ff] border-solid inset-0 pointer-events-none rounded-[8px]" />
+      <div className="bg-[#2563eb] content-stretch flex gap-[4px] items-center justify-center p-[8px] relative rounded-[8px] shrink-0" data-name="Button">
+        <div aria-hidden="true" className="absolute border border-[#60a5fa] border-solid inset-0 pointer-events-none rounded-[8px]" />
         <p className="font-['Geist:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#f8fafc] text-[16px]">Sign Up</p>
       </div>
       <div className="content-stretch flex gap-[8px] items-center justify-center p-[8px] relative shrink-0" data-name="Button">
@@ -20,7 +20,7 @@ function Navbar() {
       <div className="flex flex-row items-center justify-end overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex items-center justify-end px-[40px] py-[24px] relative w-full">
           <NavbarActions />
-          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#8200db] content-stretch flex items-center justify-center left-1/2 px-[16px] py-[4px] top-[calc(50%+1px)]" data-name="Logo Container">
+          <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[#2563eb] content-stretch flex items-center justify-center left-1/2 px-[16px] py-[4px] top-[calc(50%+1px)]" data-name="Logo Container">
             <p className="font-['Inter:Black_Italic',sans-serif] font-black italic leading-[normal] relative shrink-0 text-[#f8fafc] text-[36px]">Super Beats</p>
           </div>
         </div>
@@ -46,8 +46,8 @@ function PlayBeatToolbarLeft() {
         <p className="font-['Inter:Medium',sans-serif] font-medium leading-[normal] not-italic relative shrink-0 text-[#f1f5f9] text-[16px]">Tempo</p>
         <Input />
       </div>
-      <div className="bg-[#8200db] content-stretch flex gap-[4px] items-center justify-center p-[8px] relative rounded-[8px] shrink-0" data-name="Button">
-        <div aria-hidden="true" className="absolute border border-[#ad46ff] border-solid inset-0 pointer-events-none rounded-[8px]" />
+      <div className="bg-[#2563eb] content-stretch flex gap-[4px] items-center justify-center p-[8px] relative rounded-[8px] shrink-0" data-name="Button">
+        <div aria-hidden="true" className="absolute border border-[#60a5fa] border-solid inset-0 pointer-events-none rounded-[8px]" />
         <div className="overflow-clip relative shrink-0 size-[20px]" data-name="Icon">
           <div className="absolute inset-[12.5%]" data-name="Icon">
             <div className="absolute inset-[-5%]">

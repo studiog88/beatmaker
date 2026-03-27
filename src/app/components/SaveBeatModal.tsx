@@ -49,7 +49,7 @@ export function SaveBeatModal({ isOpen, onClose, onSave }: SaveBeatModalProps) {
               onChange={(e) => setBeatName(e.target.value)}
               required
               autoFocus
-              className="bg-[#27272a] border border-[#3f3f47] rounded-[4px] px-[16px] py-[8px] text-[#f1f5f9] font-['Inter:Medium',sans-serif] font-medium text-[16px] outline-none focus:border-[#8200db] transition-colors"
+              className="bg-[#27272a] border border-[#3f3f47] rounded-[4px] px-[16px] py-[8px] text-[#f1f5f9] font-['Inter:Medium',sans-serif] font-medium text-[16px] outline-none focus:border-[#2563eb] transition-colors"
               placeholder="My Awesome Beat"
             />
           </div>
@@ -64,7 +64,7 @@ export function SaveBeatModal({ isOpen, onClose, onSave }: SaveBeatModalProps) {
             </button>
             <button
               type="submit"
-              className="flex-1 bg-[#8200db] border border-[#ad46ff] rounded-[8px] px-[16px] py-[12px] text-[#f8fafc] font-['Geist:Medium',sans-serif] font-medium text-[16px] cursor-pointer hover:opacity-90 transition-opacity"
+              className="flex-1 bg-[#2563eb] border border-[#60a5fa] rounded-[8px] px-[16px] py-[12px] text-[#f8fafc] font-['Geist:Medium',sans-serif] font-medium text-[16px] cursor-pointer hover:opacity-90 transition-opacity"
             >
               Save
             </button>

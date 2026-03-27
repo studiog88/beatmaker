@@ -133,7 +133,7 @@ export function LoadBeatModal({ isOpen, onClose, onLoad, accessToken }: LoadBeat
             {beats.map((beat) => (
               <div
                 key={beat.id}
-                className="bg-[#27272a] border border-[#3f3f47] rounded-[8px] p-[16px] flex items-center justify-between hover:border-[#8200db] transition-colors"
+                className="bg-[#27272a] border border-[#3f3f47] rounded-[8px] p-[16px] flex items-center justify-between hover:border-[#2563eb] transition-colors"
               >
                 <div 
                   className="flex-1 cursor-pointer"

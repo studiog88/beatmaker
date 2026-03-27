@@ -65,7 +65,7 @@ export function BeatGrid({ tracks, steps, isPlaying, tempo, onCellToggle, patter
               // Determine background color
               let bgColor = stepIndex % 4 === 0 ? 'bg-[#3f3f47]' : 'bg-[#18181b]';
               if (isActive) {
-                bgColor = 'bg-[#8200db]';
+                bgColor = 'bg-[#2563eb]';
               }
               
               return (
@@ -73,14 +73,14 @@ export function BeatGrid({ tracks, steps, isPlaying, tempo, onCellToggle, patter
                   key={stepIndex}
                   onClick={() => onCellToggle(trackIndex, stepIndex)}
                   className={`${bgColor} relative rounded-[8px] shrink-0 size-[40px] transition-all cursor-pointer hover:opacity-80 ${
-                    isCurrentlyPlaying ? 'ring-2 ring-[#ad46ff]' : ''
+                    isCurrentlyPlaying ? 'ring-2 ring-[#60a5fa]' : ''
                   }`}
                   data-name="Grid Item"
                 >
                   <div 
                     aria-hidden="true" 
                     className={`absolute border ${
-                      isActive ? 'border-[#ad46ff]' : 'border-[#4a5565]'
+                      isActive ? 'border-[#60a5fa]' : 'border-[#4a5565]'
                     } border-solid inset-0 pointer-events-none rounded-[8px]`} 
                   />
                 </button>
